@@ -50,7 +50,7 @@ if(!empty($_POST['query'])){
 
   error_reporting(E_ERROR | E_PARSE);
   
-    $token="EAAWGNgNIFnwBABp8tjZAdJxHCnns0dKXivfLAtyu4uAl7qZCXNBa6cjOrpLCdwR6cZCGBGL5a6qxRDcN0OQdMzWQShuwe51KAgnkNOac8qsMqfKLJH36IbtN2ZBh1X0bzTDVez6IIRGc0hxGxoGlbZBdYC9CM5DdcU99nhOnJBopVXjQNzDZAbUPwWQT0E25UMrCTZCqCxh6LnwLu9NwaLddUY9nds4f5oZD";
+    $token="facebok_token";
     $query = $_POST['query'] ;
     $url= "https://graph.facebook.com/search?type=adinterest&q=[$query]&limit=10000&locale=en_US&access_token=$token" ;
     $ch = curl_init();
